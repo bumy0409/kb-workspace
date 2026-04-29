@@ -135,7 +135,6 @@ public class MainService {
 			if (m.getMemberId().equals(id) && m.getMemberPw().equals(password)) {
 				loginMember = m;
 				System.out.println(m.getMemberName() + "님 환영합니다.");
-				displayMenu();
 				return;
 			}
 		}
