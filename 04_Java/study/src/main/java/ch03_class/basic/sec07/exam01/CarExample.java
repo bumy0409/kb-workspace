@@ -1,0 +1,19 @@
+package main.java.ch03_class.basic.sec07.exam01;
+
+public class CarExample {
+    public static void main(String[] args) {
+        Car myCar = new Car("그랜저", 250, "검정");
+//        Car myCar2 = new Car();
+        Car car = new Car("그랜저", 100);
+
+        //myCar 객체 필드값 출력
+        //값이 안담긴 이유 : Car 필드에 초기화하지 않았기 때문에
+//        System.out.println("model : " + myCar.model);
+//        System.out.println("color : " + myCar.color);
+//        System.out.println("maxSpeed : " + myCar.maxSpeed);
+
+
+
+
+    }
+}
