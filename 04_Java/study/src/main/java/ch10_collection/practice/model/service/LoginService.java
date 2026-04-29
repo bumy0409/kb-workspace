@@ -25,7 +25,8 @@ public class LoginService {
 			if (num == answer) {
 				System.out.println("정답!!");
 				System.out.println("입력 시도 횟수:" + n);
-				if (loginMember.getHighScore() > n) {
+				if (loginMember.getHighScore() == 0 || loginMember.getHighScore() > n) {
+					loginMember.setHighScore(n);
 					System.out.println("*** 최고 기록 달성 ***");
 				}
 				break;
